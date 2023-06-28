@@ -13,7 +13,7 @@ This application uses an express backend, saving and retrieving JSON stored data
 
 ### Tech Used
 
-HTML routes were created:
+HTML routes were created:</br>
 GET /notes - return the notes.html file.
 GET * - return the index.html file
 
@@ -23,9 +23,10 @@ API routes were created in index.js and notes.js:</br>
 GET /api/notes reads db.json file and returns all saved notes as JSON.</br>
 POST /api/notes receives a new note to save on the request body, adds it to the db.json file, and then returns the new note to the client.</br>
 DELETE /api/notes/:id receives a query parameter containing the id of a note to delete. Each note is given a unique id when it’s saved.
-### Demo 
-[Go to Demo](https://drive.google.com/file/d/1WTtMB1rYNYX9rtG0lRbGAb3I9oU9dXUY/view?usp=sharing)
 
+### Demo & link to the deployed NoteTaker App 
+[Go to Demo](https://drive.google.com/file/d/1WTtMB1rYNYX9rtG0lRbGAb3I9oU9dXUY/view?usp=sharing)
+[Try it here](https://notetaker-challenge-04b3eb2c464f.herokuapp.com/notes)
 #### NPM Packages
 npm install Express
 npm install short-uuid
